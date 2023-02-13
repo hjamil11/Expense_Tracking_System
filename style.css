@@ -1,0 +1,83 @@
+h1{
+    text-align: center;    
+    color:crimson;
+    font-family: cursive
+}
+
+
+h3{
+    text-align: center;    
+    color:darkgray;
+    font-family: cursive
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(159, 102, 102);
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1em 1em;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: darkgray;
+}
+
+  
+body{
+    background-image: url("bg3.jpg");
+    margin:40px auto;
+    max-width:700px;
+    line-height:1.6;
+    font-size:18px;
+    color:#444;
+    padding:0 10px
+}
+
+label.block {
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid;
+    text-align: left;
+    padding: 8px;
+}
+
+form {
+    box-sizing: border-box;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: hsl(0, 65%, 46%);
+    border: 4px solid hsl(0, 49%, 61%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
